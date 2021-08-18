@@ -9,9 +9,9 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;  
-    height: 100vh;  
-    background-color:  hsl(222, 26%, 31%);
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(222, 26%, 31%);
 }
 
 
@@ -43,7 +43,7 @@ body {
 }
 
 .theme-btn {
-    padding: 2px ;
+    padding: 2px;
     height: 12px;
     display: flex;
     justify-content: flex-start;
@@ -92,7 +92,7 @@ body {
 
 .all-btn {
     width: 500px;
-    height: 250px ;
+    height: 250px;
     background-color: hsl(223, 31%, 20%);
     border-radius: 10px;
     margin-top: 10px;
@@ -128,6 +128,7 @@ body {
     cursor: pointer;
     font-size: 20px;
 }
+
 .del {
     background-color: hsl(225, 21%, 49%);
 }

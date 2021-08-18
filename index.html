@@ -1,71 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Calculator app</title>
-  <link rel="stylesheet" href="src/css/style.css">
-  <link rel="stylesheet" href="src/css/mobile-style.css">
-</head>
-<body>
-  <section>
-    <div class="the-head">
-      <h1 class="text calc">calc</h1>
-      <div class="theTheme">
-        <h1 class="text theme-01">theme</h1>
-        <div class="theme">
-          <div class="number-of-theme">
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-          </div>
-          <div class="theme-btn">
-            <div class="circle"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/mobile-style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="the-head">
+        <h1 class="text calc">calc</h1>
+        <div class="theTheme">
+          <h1 class="text theme-01">theme</h1>
+          <div class="theme">
+            <div class="number-of-theme">
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+            </div>
+            <div class="theme-btn">
+              <div class="circle"></div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="the-screen">
-      <h1 data-screen class="num-screen"></h1>
-    </div>
+      <div class="the-screen">
+        <h1 data-screen class="num-screen"></h1>
+      </div>
 
-    <div class="all-btn">
-      <div class="the-btn">
-        <div class="range">
-          <div data-number class="num-btn num ">7</div>
-          <div data-number class="num-btn num ">8</div>
-          <div data-number class="num-btn num ">9</div>
-          <div data-del class="num-btn del ">DEL</div>
-        </div>
-        <div class="range">
-          <div data-number class="num-btn num ">4</div>
-          <div data-number class="num-btn num ">5</div>
-          <div data-number class="num-btn num ">6</div>
-          <div data-operation class="num-btn num ">+</div>
-        </div>
-        <div class="range">
-          <div data-number class="num-btn num ">1</div>
-          <div data-number class="num-btn num ">2</div>
-          <div data-number class="num-btn num ">3</div>
-          <div data-operation class="num-btn num ">-</div>
-        </div>
-        <div class="range">
-          <div data-number class="num-btn num ">.</div>
-          <div data-number class="num-btn num ">0</div>
-          <div data-operation class="num-btn num ">/</div>
-          <div data-operation class="num-btn num ">×</div>
-        </div>
-        <div class="range">
-          <div data-rest class="rest-btn ">REST</div>
-          <div data-equal class="equal-btn">=</div>
+      <div class="all-btn">
+        <div class="the-btn">
+          <div class="range">
+            <div class="num-btn num">7</div>
+            <div class="num-btn num">8</div>
+            <div class="num-btn num">9</div>
+            <div class="num-btn del">DEL</div>
+          </div>
+          <div class="range">
+            <div class="num-btn num">4</div>
+            <div class="num-btn num">5</div>
+            <div class="num-btn num">6</div>
+            <div class="num-btn oper">+</div>
+          </div>
+          <div class="range">
+            <div class="num-btn num">1</div>
+            <div class="num-btn num">2</div>
+            <div class="num-btn num">3</div>
+            <div class="num-btn oper">-</div>
+          </div>
+          <div class="range">
+            <div class="num-btn num">.</div>
+            <div class="num-btn num">0</div>
+            <div class="num-btn num">/</div>
+            <div class="num-btn oper">*</div>
+          </div>
+          <div class="range">
+            <div class="rest-btn">REST</div>
+            <div class="equal-btn">=</div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-  </section>
-
-  <script type="module" src="src/js/scripte.js"></script>
-</body>
+    <script type="module" src="src/js/scripte.js"></script>
+  </body>
 </html>
