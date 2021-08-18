@@ -13,17 +13,16 @@ const rest = document.querySelector('.rest-btn');
 const equal = document.querySelector('.equal-btn');
 
 
+const regex = /[\/\*\.\-\+]{1}$/;
 
 
 btns.forEach((e) => {
     if (e.classList.contains("num") || e.classList.contains("oper"))
         e.addEventListener('click', () => {
-            console.log("hi");
 
-
-            // let opRegex = RegExp("[+-*/]");
-            // if (opRegex.compile().test(output.innerText[output.innerText.length - 1]))
-            output.innerText += e.innerText;
+            if (!(regex.test(output.innerText) && regex.test(e.innerText)))
+                output.innerText += e.innerText;
+            console.log(output.innerText.length);
         });
 
 });
@@ -42,3 +41,6 @@ equal.addEventListener('click', () => {
     const result = eval(output.innerText);
     output.innerText = result;
 });
+
+
+//  regex to test for operator AT THE END OF string
